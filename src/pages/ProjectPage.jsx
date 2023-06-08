@@ -1,6 +1,6 @@
 import Project_card from "../components/project_card/Project_card";
 import second from "./imgs/Rectangle 22.png";
-const Project_Page = () => {
+const ProjectPage = () => {
 
  
     // date
@@ -81,4 +81,4 @@ const Project_Page = () => {
   </>
   );
 };
-export default Project_Page;
+export default ProjectPage;

@@ -3,7 +3,7 @@ import Skills from "../components/skills_section/Skills";
 import AboutSec from "../components/about_section/About";
 import Contact from "../components/contact_section/Contact";
 import About from "../components/first_section_about/About";
-const Home_Page = () => {
+const HomePage = () => {
    
   return (
     <>
@@ -15,4 +15,4 @@ const Home_Page = () => {
     </>
   );
 };
-export default Home_Page;
+export default HomePage;
