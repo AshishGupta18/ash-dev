@@ -1,6 +1,5 @@
-import Project_card from "../project_card/Project_card";
+import ProjectCard from "../project_card/ProjectCard";
 import second from "./imgs/Rectangle 22.png";
-
 
 const Projects = () => {
   // date
@@ -13,7 +12,7 @@ const Projects = () => {
     },
     {
       img: second,
-      langs: ["Flutter","API","Xcode"],
+      langs: ["Flutter", "API", "Xcode"],
       title: "Ask-Ash",
       disc: "Flutter App for ChatGPT with some added features ",
     },
@@ -50,7 +49,7 @@ const Projects = () => {
           {projects.map(({ img, langs, title, disc }) => {
             return (
               <>
-                <Project_card
+                <ProjectCard
                   img={img}
                   langs={langs}
                   title={title}

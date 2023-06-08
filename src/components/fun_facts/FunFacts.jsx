@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Fun_facts = () => {
+const FunFacts = () => {
   return (
     <div className='px-5 max-w-[1560px] mx-auto pt-20 py-10'>
         <div className=" text-white font-medium text-[32px] mb-12">
@@ -39,4 +39,4 @@ const Fun_facts = () => {
   )
 }
 
-export default Fun_facts
+export default FunFacts

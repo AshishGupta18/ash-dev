@@ -1,4 +1,4 @@
-const Project_card = ({ img, langs, title, disc }) => {
+const ProjectCard = ({ img, langs, title, disc }) => {
   return (
     <>
       <div className="border mx-auto w-[90%] md:w-[48%] lg:w-[30%] border-[#ABB2BF] p-0">
@@ -28,4 +28,4 @@ const Project_card = ({ img, langs, title, disc }) => {
   );
 };
 
-export default Project_card;
+export default ProjectCard;
