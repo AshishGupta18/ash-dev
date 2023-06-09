@@ -28,19 +28,17 @@ const Footer = () => {
             {/* title */}
             <h2 className=" text-white text-2xl font-medium mb-3">Media</h2>
             {/* media */}
-            <div className="flex items-center gap-2">
-              <a href="#">
+            <div className="flex items-center gap-2 mr-5">
+              <a href="https://www.github.com/AshishGupta18" target="_blank">
                 <img src={require("./imgs/Github.png")} alt="" />
               </a>
-              <a href="#">
-                <img src={require("./imgs/Github.png")} alt="" />
+              <a href="https://www.linkedin.com/in/ashish-gupta-6a144a221/" target="_blank">
+                <img src={require("../contact_section/imgs/Linkedin.png")} alt="" />
               </a>
-              <a href="#">
-                <img src={require("./imgs/Discord.png")} alt="" />
+              <a href="https://www.instagram.com/whoisashish._/" target="_blank">
+                <img src={require("../contact_section/imgs/Insta.png")} alt="" />
               </a>
-              <a href="#">
-                <img src={require("./imgs/Github.png")} alt="" />
-              </a>
+              
             </div>
           </div>
         </div>

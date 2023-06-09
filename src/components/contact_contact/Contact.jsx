@@ -2,13 +2,14 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="px-5 max-w-[1560px] mx-auto pt-20 py-10 min-h-screen pr-20">
+    <div className="px-5 max-w-[1560px] mx-auto pt-20 py-10  pr-20">
       {/* title */}
       <div className=" mb-12">
         <div className=" text-white mt-12 font-semibold text-[32px]">
           <div className="">
             <span className="text-[#C778DD]">/</span>Contact Me
           </div>
+          
         </div>
         <div className="text-white mt-[14px] mb-[46px]">Who Am I?</div>
         {/* flex */}
@@ -26,17 +27,17 @@ const Contact = () => {
           <div className="flex gap-3">
             {/* {/* boxes flex */}
             {/* 1 */}
-            <div className="p-4 border-[#ABB2BF] border">
+            {/* <div className="p-4 border-[#ABB2BF] border">
               <h2 className="text-white font-medium pb-2">Support me here</h2>
               <span className="text-[#ABB2BF]">Random thing</span>
-            </div>
+            </div> */}
             {/* 2 */}
             <div className="p-4 border-[#ABB2BF] border">
               <h2 className="text-white font-medium pb-4">Message me Here</h2>
               <div className="text-[#ABB2BF]">
                 <div className="flex gap-1 items-center">
                   <img
-                    src={require("../contact_section/imgs/Email.png")}
+                    src={require("../contact_section/imgs/Phone.png")}
                     alt=""
                     srcset=""
                   />
@@ -62,19 +63,19 @@ const Contact = () => {
           <span className="text-[#C778DD]">#</span>All Media
         </div>
         {/* media */}
-        <div className="">
-          <div className="">
-            <img src="" alt="" srcset="" />
+        <div className="flex gap-6 mt-5">
+            <a href="https://www.github.com/AshishGupta18" target="_blank" rel="noopener noreferrer"> <div className="text-[#ABB2BF] flex items-center gap-1">
+            <img src={require("../footer/imgs/Github.png")} alt="" srcset="" />
+            <span>Github</span>
+          </div></a>
+         <a href="https://www.linkedin.com/in/ashish-gupta-6a144a221/" target="_blank">
+         <div className="text-[#ABB2BF] flex items-center gap-1">
+            <img src={require("../contact_section/imgs/Linkedin.png")} alt="" srcset="" />
+            <span>LinkedIn</span>
           </div>
-          <div className="">
-            <img src="" alt="" srcset="" />
-          </div>
-          <div className="">
-            <img src="" alt="" srcset="" />
-          </div>
-          <div className="">
-            <img src="" alt="" srcset="" />
-          </div>
+         </a>
+          
+          
         </div>
       </div>
     </div>
