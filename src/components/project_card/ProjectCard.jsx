@@ -19,7 +19,7 @@ const ProjectCard = ({ img, langs, title, disc }) => {
           {/* btns */}
           <div className="">
             <button className=" py-2 px-4 text-white border border-[#C778DD] hover:bg-[#C778DD33] duration-150">
-              Live {"<"}~{">"}
+              Source Code {"<"}~{">"}
             </button>
           </div>
         </div>

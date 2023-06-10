@@ -1,5 +1,5 @@
 
-
+import {Link, Route, Routes} from 'react-router-dom';
 const About = () => {
   return (
     <>
@@ -12,9 +12,12 @@ const About = () => {
           <p className="text-[#ABB2BF] my-6">
             He crafts responsive websites where technologies meet creativity
           </p>
+          <Link to="/Contact">
           <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
             Contact me!!
           </button>
+          </Link>
+         
         </div>
         <div className="mx-auto">
           <div className="">

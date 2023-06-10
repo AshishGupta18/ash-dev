@@ -34,17 +34,14 @@ const Contact = () => {
               <div className="">
                 {/* links */}
                 <div className="flex gap-1 items-center">
-                  <img src={require("./imgs/Email.png")} alt="" />
+                  <img src={require("./imgs/Phone.png")} alt="" />
                   <span className="text-[#ABB2BF]">+91 7505231375</span>
                 </div>
                 <div className="flex gap-1 items-center">
                   <img src={require("./imgs/Email.png")} alt="" />
                   <span className="text-[#ABB2BF]">ashish189000@gmail.com</span>
                 </div>
-                <div className="flex gap-1 items-center">
-                  <img src={require("./imgs/Email.png")} alt="" />
-                  <span className="text-[#ABB2BF]">ashish189000@gmail.com</span>
-                </div>
+                
                
               </div>
             </div>

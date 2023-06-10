@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom';
 const Footer = () => {
   return (
     <>
@@ -16,7 +17,11 @@ const Footer = () => {
                 <span>Ashish</span>
               </div>
               {/* email */}
-              <span className="text-[#ABB2BF]">ashish189000@gmail.com</span>
+              <a href="/files/Ashish_Resume.pdf" target="_blank" download="Ashish's Resume">
+          <button className="text-white font-medium py-2 px-4 border duration-200 border-[#C778DD] hover:bg-[#C778DD33]">
+            My Resume -{">"}
+          </button>
+          </a>
             </div>
             {/* disc */}
             <div className="text-[#ffffff]">

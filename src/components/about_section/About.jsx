@@ -1,3 +1,4 @@
+import {Link, Route, Routes} from 'react-router-dom';
 const AboutSec = () => {
   return (
     <>
@@ -32,12 +33,11 @@ const AboutSec = () => {
             </p>
             {/* button */}
             <div className="mt-7">
-              <a
-                href="#"
-                className=" duration-150 hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white "
-              >
-                <button>Read more -{">"}</button>
+              <Link to="/About">
+              <a className=" duration-150 hover:bg-[#C778DD33] border border-[#C778DD] px-4 py-2 text-white " >Read More -{">"}
               </a>
+              </Link>
+              
             </div>
           </div>
          {/* right */}

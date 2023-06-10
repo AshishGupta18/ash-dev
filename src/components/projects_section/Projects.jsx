@@ -1,5 +1,8 @@
 import ProjectCard from "../project_card/ProjectCard";
-import second from "./imgs/Rectangle 22.png";
+
+import second from "./imgs/image-ditor.png";
+import third from "./imgs/ask-ash.png";
+import {Link, Route, Routes} from 'react-router-dom';
 
 const Projects = () => {
   // date
@@ -8,7 +11,7 @@ const Projects = () => {
       img: second,
       langs: ["html", "css", "javascript", "react", "tailwind css"],
       title: "ZorChat",
-      disc: "A realtime chat app ",
+      disc: "A realtime chat app where one can chat with many using chatengine ",
     },
     {
       img: second,
@@ -38,9 +41,9 @@ const Projects = () => {
           </div>
           {/* right */}
           <div className=" text-white font-medium">
-            <a href="">
+            <Link to="/projects">
               <span>View all ~~&gt;</span>
-            </a>
+            </Link>
           </div>
         </div>
         {/* bottom */}
