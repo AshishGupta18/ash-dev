@@ -1,29 +1,32 @@
 import ProjectCard from "../project_card/ProjectCard";
-
-import second from "./imgs/image-ditor.png";
-import third from "./imgs/ask-ash.png";
+import first from "./imgs/zorchat.png";
+import third from "./imgs/image-ditor.png";
+import second from "./imgs/ask-ash.png";
 import {Link, Route, Routes} from 'react-router-dom';
 
 const Projects = () => {
   // date
   const projects = [
     {
-      img: second,
-      langs: ["html", "css", "javascript", "react", "tailwind css"],
+      img: first,
+      langs: ["chatengine", "javascript", "react", "tailwind css"],
       title: "ZorChat",
       disc: "A realtime chat app where one can chat with many using chatengine ",
+      src: "https://github.com/AshishGupta18/Zorchat",
     },
     {
       img: second,
-      langs: ["Flutter", "API", "Xcode"],
+      langs: ["Flutter", "API", "Xcode","OPENAI"],
       title: "Ask-Ash",
       disc: "Flutter App for ChatGPT with some added features ",
+      src: "https://github.com/AshishGupta18/Ask-Ash-App",
     },
     {
-      img: second,
+      img: third,
       langs: ["html", "css", "javascript"],
       title: "Image-Ditor",
       disc: "Responsive webapp to customize your images ",
+      src: "https://github.com/AshishGupta18/Image-Ditor",
     },
   ];
 
@@ -49,7 +52,7 @@ const Projects = () => {
         {/* bottom */}
         <div className="flex flex-wrap justify-between gap-4 my-12">
           {/* cards */}
-          {projects.map(({ img, langs, title, disc }) => {
+          {projects.map(({ img, langs, title, disc,src }) => {
             return (
               <>
                 <ProjectCard
@@ -57,6 +60,7 @@ const Projects = () => {
                   langs={langs}
                   title={title}
                   disc={disc}
+                  src={src}
                 />
               </>
             );

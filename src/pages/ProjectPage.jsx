@@ -1,43 +1,51 @@
 import ProjectCard from "../components/project_card/ProjectCard";
-import second from "./imgs/Rectangle 22.png";
+import third from "../components/projects_section/imgs/image-ditor.png";
+import first from "../components/projects_section/imgs/zorchat.png";
+import second from "../components/projects_section/imgs/ask-ash.png";
 const ProjectPage = () => {
   // date
   const projects = [
     {
-      img: second,
-      langs: ["html", "css", "javascript", "react", "tailwind css"],
+      img: first,
+      langs: ["chatengine", "javascript", "react", "tailwind css"],
       title: "ZorChat",
-      disc: "A realtime chat app ",
+      disc: "A realtime chat app where one can chat with many using chatengine ",
+      src: "https://github.com/AshishGupta18/Zorchat",
     },
     {
       img: second,
-      langs: ["Flutter", "API", "Xcode"],
+      langs: ["Flutter", "API", "Xcode","OPENAI"],
       title: "Ask-Ash",
       disc: "Flutter App for ChatGPT with some added features ",
+      src: "https://github.com/AshishGupta18/Ask-Ash-App",
     },
     {
-      img: second,
-      langs: ["Flutter", "API", "Xcode"],
-      title: "Ask-Ash",
-      disc: "Flutter App for ChatGPT with some added features ",
-    },
-    {
-      img: second,
-      langs: ["Flutter", "API", "Xcode"],
-      title: "Ask-Ash",
-      disc: "Flutter App for ChatGPT with some added features ",
-    },
-    {
-      img: second,
+      img: third,
       langs: ["html", "css", "javascript"],
       title: "Image-Ditor",
       disc: "Responsive webapp to customize your images ",
+      src: "https://github.com/AshishGupta18/Image-Ditor",
     },
     {
-      img: second,
-      langs: ["html", "css", "javascript"],
-      title: "I dont Know",
-      disc: "Responsive webapp to customize your images ",
+      img: first,
+      langs: ["chatengine", "javascript", "react", "tailwind css"],
+      title: "ZorChat",
+      disc: "A realtime chat app where one can chat with many using chatengine ",
+      src: "https://github.com/AshishGupta18/Zorchat",
+    },
+    {
+      img: first,
+      langs: ["chatengine", "javascript", "react", "tailwind css"],
+      title: "ZorChat",
+      disc: "A realtime chat app where one can chat with many using chatengine ",
+      src: "https://github.com/AshishGupta18/Zorchat",
+    },
+    {
+      img: first,
+      langs: ["chatengine", "javascript", "react", "tailwind css"],
+      title: "ZorChat",
+      disc: "A realtime chat app where one can chat with many using chatengine ",
+      src: "https://github.com/AshishGupta18/Zorchat",
     },
   ];
 
@@ -62,7 +70,7 @@ const ProjectPage = () => {
 
           <div className="flex flex-wrap gap-4 my-12">
             {/* cards */}
-            {projects.map(({ img, langs, title, disc }) => {
+            {projects.map(({ img, langs, title, disc,src }) => {
               return (
                 <>
                   <ProjectCard
@@ -70,6 +78,7 @@ const ProjectPage = () => {
                     langs={langs}
                     title={title}
                     disc={disc}
+                    src={src}
                   />
                 </>
               );
