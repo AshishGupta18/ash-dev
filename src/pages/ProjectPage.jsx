@@ -2,12 +2,15 @@ import ProjectCard from "../components/project_card/ProjectCard";
 import third from "../components/projects_section/imgs/image-ditor.png";
 import first from "../components/projects_section/imgs/zorchat.png";
 import second from "../components/projects_section/imgs/ask-ash.png";
+import fourth from "../components/projects_section/imgs/purgewaste.png";
+import fifth from "../components/projects_section/imgs/icosmic.png";
+import sixth from "../components/projects_section/imgs/polardev.png";
 const ProjectPage = () => {
   // date
   const projects = [
     {
       img: first,
-      langs: ["chatengine", "javascript", "react", "tailwind css"],
+      langs: ["Chatengine", "Javascript", "React", "Tailwind css"],
       title: "ZorChat",
       disc: "A realtime chat app where one can chat with many using chatengine ",
       src: "https://github.com/AshishGupta18/Zorchat",
@@ -21,31 +24,31 @@ const ProjectPage = () => {
     },
     {
       img: third,
-      langs: ["html", "css", "javascript"],
+      langs: ["HTML5", "Css", "Javascript"],
       title: "Image-Ditor",
       disc: "Responsive webapp to customize your images ",
       src: "https://github.com/AshishGupta18/Image-Ditor",
     },
     {
-      img: first,
-      langs: ["chatengine", "javascript", "react", "tailwind css"],
-      title: "ZorChat",
-      disc: "A realtime chat app where one can chat with many using chatengine ",
-      src: "https://github.com/AshishGupta18/Zorchat",
+      img: fourth,
+      langs: [ "Javascript", "HTML5", "Tailwind css"],
+      title: "Purge-Waste",
+      disc: "A platform made to manage waste sector. Connects Waste Plants to Common households",
+      src: "https://github.com/AshishGupta18/Purge-Waste",
     },
     {
-      img: first,
-      langs: ["chatengine", "javascript", "react", "tailwind css"],
-      title: "ZorChat",
-      disc: "A realtime chat app where one can chat with many using chatengine ",
-      src: "https://github.com/AshishGupta18/Zorchat",
+      img: fifth,
+      langs: ["HTML5", "Javascript", "CSS", "Tailwind css","Parallex"],
+      title: "I-Cosmic",
+      disc: "A website made for inter-college mega fest ",
+      src: "https://github.com/AshishGupta18/icosmic",
     },
     {
-      img: first,
-      langs: ["chatengine", "javascript", "react", "tailwind css"],
-      title: "ZorChat",
-      disc: "A realtime chat app where one can chat with many using chatengine ",
-      src: "https://github.com/AshishGupta18/Zorchat",
+      img: sixth,
+      langs: [ "React", "Tailwind css","Hooks"],
+      title: "PolarsDev",
+      disc: "Website for a startup where we offer software/web/app services ",
+      src: "https://github.com/AshishGupta18/Coming-Soon-Polars-Dev",
     },
   ];
 
@@ -84,6 +87,7 @@ const ProjectPage = () => {
               );
             })}
           </div>
+          <div className="text-white font-medium text-[32px] mt-[6px]">And Many More...</div>
         </div>
       </div>
     </>
