@@ -21,12 +21,12 @@ const AboutSec = () => {
               Hello, I’m Ashish!
               <br />
               <br />
-              I’m a self-taught fullstack developer based in Delhi, India. I
-              can develop responsive websites from scratch and raise them into
-              modern user-friendly web experiences.
+              I’m a self-taught software developer based in Delhi, India. I
+              can develop responsive websites and app from scratch and raise them into
+              modern user-friendly webapp experiences.
               <br />
               <br />
-              Transforming my creativity and knowledge into a websites has been
+              Transforming my creativity and knowledge into websites has been
               my passion for over a year. I have been helping various clients to
               establish their presence online. I always strive to learn about
               the newest technologies and frameworks.
